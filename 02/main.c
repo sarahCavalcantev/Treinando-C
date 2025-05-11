@@ -1,9 +1,9 @@
 #include <stdio.h>
 void print_bits(char byte){
     int i;
-    for (i=7; i>=0; i--){ //começando pelo bit mais significativo (esquerda p/ direita)
-        printf("%i", ((byte >> i) & 1)); //byte serve para ir passando de bit em bit no byte; depois compara
-        //se é igual a 1, se for, imprime 1 pois :      1 and 1 = 1 -------- 0 and 1 = 0
+    for (i=7; i>=0; i--){ // Começando pelo bit mais significativo (esquerda p/ direita)
+        printf("%i", ((byte >> i) & 1)); // Byte serve para ir passando de bit em bit no byte; depois compara
+        // Se é igual a 1, se for, imprime 1 pois :      1 and 1 = 1 -------- 0 and 1 = 0
     }
     printf("\n");
 }

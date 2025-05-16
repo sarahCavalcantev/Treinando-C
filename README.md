@@ -8,8 +8,8 @@ Repositório dedicado à prática da linguagem C, com foco em aprofundar conheci
 Este projeto contém diversos arquivos `.c` criados no **Visual Studio Code**, com o intuito de treinar:
 
 - Operações bitwise
-- Laços de repetição (`for`, `while`, `do-while`)
-- Condicionais (`if`, `else`, `switch`)
+- Laços de repetição
+- Condicionais 
 - Uso de macros (`#define`)
 - Manipulação de variáveis e tipos de dados
 - Funções e modularização do código
